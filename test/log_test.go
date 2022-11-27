@@ -17,6 +17,9 @@ func TestMain(m *testing.M) {
 		return
 	}
 
+	// stdout
+	//l := helper.NewTextStdoutLogger()
+
 	zlog.AddLoggers(l)
 	zlog.SetCallerEnable(true)
 	defer zlog.Close()

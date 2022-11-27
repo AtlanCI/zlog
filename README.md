@@ -42,7 +42,32 @@ func main() {
 }
 
 ```
+## Stdout
+```go
+package main
 
+import (
+	"context"
+
+	"github.com/AtlanCI/zlog"
+	"github.com/AtlanCI/zlog/helper"
+)
+
+func main() {
+
+	// stdout 
+	l := helper.NewTextStdoutLogger()
+	
+	zlog.AddLoggers(l)
+
+	// Enabled on Caller will reduce performance by 15%
+	zlog.SetCallerEnable(true)
+
+	defer zlog.Close()
+
+	zlog.Debugf(context.TODO(), "this is a debug log. a=%d", 888)
+}
+```
 ## Feat
 
 - [x] scroll file
@@ -52,3 +77,5 @@ func main() {
 - [ ] compression
 - [ ] more test
 - [ ] delete old file
+- [ ] document
+- [ ] godoc and awesome go

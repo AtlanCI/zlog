@@ -71,11 +71,21 @@ func main() {
 ## Feat
 
 - [x] scroll file
+
 - [x] trace id
+
 - [x] Asynchronous
+
+## todo
+
 - [ ] stained
+
 - [ ] compression
+
 - [ ] more test
+
 - [ ] delete old file
+
 - [ ] document
+
 - [ ] godoc and awesome go

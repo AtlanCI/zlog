@@ -1,4 +1,5 @@
 # zlog
+![MIT](https://img.shields.io/github/license/AtlanCI/zlog)
 
 a simple async log library of go
 

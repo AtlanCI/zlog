@@ -1,5 +1,6 @@
 # zlog
 ![MIT](https://img.shields.io/github/license/AtlanCI/zlog)
+[![codecov](https://codecov.io/gh/AtlanCI/zlog/branch/main/graph/badge.svg?token=yCft0RxgW6)](https://codecov.io/gh/AtlanCI/zlog)
 
 a simple async log library of go
 
